@@ -6,11 +6,16 @@
 
 ### What is this?
 
-This is a starter template for building Discord activities. It comes with all you need to create 3D activities, physics and mutliplayer included ⚡️
+This is a starter template for building Discord activities. It comes with all you need to create 3D activities, physics and multipayer included ⚡️
 
 > Activities are multiplayer games and social experiences in Discord. An Activity is a web application hosted in an iframe that can run within the Discord client on desktop, web, or mobile. The Embedded App SDK handles the communication between Discord and your iframed application.
 
 [Learn more about Discord activities](https://discord.com/build/embedded-app-sdk)
+
+<p align="center">
+  <img src="/assets/createActivity.png" alt="Create a Discord Activity" />
+</p>
+Built-in multiplayer with Playroom.
 
 ## How it's built?
 
