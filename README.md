@@ -13,7 +13,7 @@ This is a starter template for building Discord activities. It comes with all yo
 [Learn more about Discord activities](https://discord.com/build/embedded-app-sdk)
 
 <p align="center">
-  <img src="/assets/createActivity.png" alt="Create a Discord Activity" />
+  <img src="/assets/debug.png" alt="Enable Debug Mode in Scene.svelte to see yourself as a static object" />
 </p>
 Built-in multiplayer with Playroom.
 
