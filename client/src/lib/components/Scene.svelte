@@ -120,7 +120,7 @@
 			playerState.onQuit(() => {
 				const guest = $guests.find((g) => g.playerState.id === playerState.id);
 				if (guest) {
-					scene.remove(guest.mesh);
+					guest.despawn();
 					$guests = $guests.filter((g) => g.playerState.id !== playerState.id);
 				}
 			});

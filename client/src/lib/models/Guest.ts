@@ -72,6 +72,20 @@ export class Guest {
 		return new CSS2DObject(nameDiv);
 	}
 
+	public despawn() {
+		if (this.mesh) {
+			const nameLabel = this.mesh.children.find((child) => child instanceof CSS2DObject);
+			if (nameLabel) {
+				this.mesh.remove(nameLabel);
+				this.scene.remove(nameLabel);
+			}
+			this.scene.remove(this.mesh);
+		}
+		if (this.rigidBody) {
+			this.world.removeRigidBody(this.rigidBody);
+		}
+	}
+
 	public update() {
 		let playerPos = this.playerState.getState("pos") || { x: this.spawnPos.x, y: 0.25, z: this.spawnPos.z };
 		if (this.debug) {
